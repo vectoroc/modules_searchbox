@@ -1,0 +1,15 @@
+<?php
+
+function coolmodule_init() {
+  if (preg_match('@^admin/build/modules@', $_GET['q'])) {
+    drupal_add_js(drupal_get_path('module', 'coolmodule') .'/coolmodule.js');
+    drupal_add_css(drupal_get_path('module', 'coolmodule') .'/coolmodule.css');
+  }
+}
+
+function coolmodule_form_system_modules_alter(&$form, &$form_state) {
+//  $form['coolmodule'] = array(
+//    '#type' => 'textfield',
+//    '#weight' => -10,
+//  );
+}

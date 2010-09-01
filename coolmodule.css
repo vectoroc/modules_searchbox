@@ -1,0 +1,10 @@
+.coolmodule-container {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #d9eaf5;
+  background: #fff url(/themes/garland/images/gradient-inner.png) repeat-x 0 0;
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 99;
+}
